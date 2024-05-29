@@ -8,6 +8,7 @@ public class BreadthFirstSearch<V> implements Search<V> {
         bfs(graph, source);
     }
 
+
     private void bfs(Graph<V> graph, V source) {
         Queue<V> queue = new LinkedList<>();
         Set<V> visited = new HashSet<>();

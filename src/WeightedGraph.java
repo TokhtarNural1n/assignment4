@@ -9,7 +9,6 @@ public class WeightedGraph<V> {
         this.directed = directed;
         this.vertices = new HashMap<>();
     }
-
     public void addVertex(V data) {
         vertices.putIfAbsent(data, new Vertex<>(data));
     }

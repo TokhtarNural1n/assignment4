@@ -2,7 +2,6 @@ import java.util.*;
 public class BreadthFirstSearch<V> implements Search<V> {
     private final Map<V, V> edgeTo;
     private final V source;
-
     public BreadthFirstSearch(Graph<V> graph, V sourceData) {
         this.edgeTo = new HashMap<>();
         this.source = sourceData;

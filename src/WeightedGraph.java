@@ -40,7 +40,6 @@ public class WeightedGraph<V> {
             this.value = value;
             this.neighbors = new HashMap<>();
         }
-
         public V getValue() {
             return value;
         }

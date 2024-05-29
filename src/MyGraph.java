@@ -59,7 +59,6 @@ public class MyGraph<V> implements Graph<V> {
     public boolean hasVertex(V vertex) {
         return adjacencyMap.containsKey(vertex);
     }
-
     public boolean hasEdge(V source, V destination) {
         return hasVertex(source) && adjacencyMap.get(source).contains(destination);
     }

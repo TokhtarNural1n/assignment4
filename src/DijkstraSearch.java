@@ -33,7 +33,6 @@ public class DijkstraSearch<V> implements Search<V> {
             }
         }
     }
-
     @Override
     public Iterable<V> pathTo(V destinationData) {
         List<V> path = new ArrayList<>();

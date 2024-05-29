@@ -28,7 +28,6 @@ public class Main {
         graph.addEdge("Astana", "Kostanay");
         graph.addEdge("Shymkent", "Kyzylorda");
     }
-
     public static void fillWithWeights(WeightedGraph<String> graph) {
         graph.addEdge("Algit add README.md\nmaty", "Astana", 2.1);
         graph.addEdge("Shymkent", "Atyrau", 7.8);

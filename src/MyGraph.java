@@ -53,7 +53,6 @@ public class MyGraph<V> implements Graph<V> {
         if (undirected) {
             edgeCount /= 2;
         }
-
         return edgeCount;
     }
 

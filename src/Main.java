@@ -11,7 +11,6 @@ public class Main {
         outputPath(djk, "Kyzylorda");
 
         System.out.println("--------------------------------");
-
         MyGraph<String> graph = new MyGraph<>(true);
         fillWithoutWeights(graph);
 
